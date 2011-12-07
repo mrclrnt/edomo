@@ -23,8 +23,8 @@
 		{
 		$fp = fopen ($fichier, "r+");  
 		$buffer = fgets ($fp, 1000);  
-		$buffer.= ";";
 		$buffer.=$texte;
+		$buffer.= ";";
 		fseek ($fp, 0);  
 		fputs ($fp, $buffer);  
 		fclose ($fp);
