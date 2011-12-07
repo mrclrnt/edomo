@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>edomo - Tuteurs en Mathématiques</title>		
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'></script>
+		<script type='text/javascript' src='javascripts/jquery.tipsy.js'></script>
+		<script type='text/javascript'>
+		$(function() {
+			$('#tipsy').tipsy({fade: true, gravity: 's'});
+		});
+		</script>
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+	</head>
+	<body>
+		<div class="wrapper">
+			<img src="images/logo.png" alt="YourLogo" title="YourLogo"/>
+			<div class="hr"></div>
+			<h1>Le soutien scolaire va changer</h1>
+			<p>edomo est en train de se faire chouchouter par son équipe.<strong> Progression :</strong></p>
+						
+			<section class="progress">
+				<div class="progress-bar-container" id="tipsy" title="17% Complete"> <!-- Edit this title for the tooltip pop up -->
+					<article class="progress-bar" style="width:17%"  ></article> <!-- Edit the width percentage value to indicate progress -->
+				</div>
+				<article class="txt-launch-day-hat"></article>
+			</section>
+			
+			<div class="hr"></div>
+			<section class="mailing-list">
+				<h2>Ne manquez pas le lancement de edomo :</h2>
+				<form>
+					<input type="text" value="your@email.com" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
+					<input type="submit" value="Subscribe">	
+				</form>
+			</section><div class="clear"></div>
+			<div class="hr"></div>
+			
+			<p class="credit" style="color:rgb(15,15,15);">Template by <a href="http://www.medialoot.com" style="color:rgb(30,30,30)">MediaLoot</a></p>
+		</div>
+	</body>
+</html>
