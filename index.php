@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>edomo - Tuteurs en Mathématiques</title>		
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		
 		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'></script>
 		<script type='text/javascript' src='javascripts/jquery.tipsy.js'></script>
@@ -37,7 +37,7 @@
 		<div class="wrapper">
 			<img src="images/logo.png" alt="YourLogo" title="YourLogo"/>
 			<div class="hr"></div>
-			<h1>Le soutien scolaire va changer</h1>
+			<h1>Le soutien scolaire va changer</h1><br />
 			<p>edomo est en train de se faire chouchouter par son équipe.<strong> Progression :</strong></p>
 						
 			<section class="progress">
